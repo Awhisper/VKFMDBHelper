@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C56EFBE1CD32EC4006EB456 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C56EFBD1CD32EC4006EB456 /* main.m */; };
+		6C56EFC11CD32EC5006EB456 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C56EFC01CD32EC5006EB456 /* AppDelegate.m */; };
+		6C56EFC41CD32EC5006EB456 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C56EFC31CD32EC5006EB456 /* ViewController.m */; };
+		6C56EFC71CD32EC5006EB456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C56EFC51CD32EC5006EB456 /* Main.storyboard */; };
+		6C56EFC91CD32EC5006EB456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C56EFC81CD32EC5006EB456 /* Assets.xcassets */; };
+		6C56EFCC1CD32EC5006EB456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C56EFCA1CD32EC5006EB456 /* LaunchScreen.storyboard */; };
+		6C56EFE51CD33676006EB456 /* VKDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C56EFD61CD33676006EB456 /* VKDataBase.m */; };
+		6C56EFE61CD33676006EB456 /* VKDataBaseRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C56EFD81CD33676006EB456 /* VKDataBaseRuntime.m */; };
+		6C56EFE71CD33676006EB456 /* VKDBModel+DictionaryFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C56EFDA1CD33676006EB456 /* VKDBModel+DictionaryFormat.m */; };
+		6C56EFE81CD33676006EB456 /* VKSqlGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C56EFDC1CD33676006EB456 /* VKSqlGenerator.m */; };
+		6C56EFE91CD33676006EB456 /* VKSQLQueueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C56EFDE1CD33676006EB456 /* VKSQLQueueManager.m */; };
+		6C56EFEA1CD33676006EB456 /* TESTDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C56EFE01CD33676006EB456 /* TESTDBModel.m */; };
+		6C56EFEB1CD33676006EB456 /* VKDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C56EFE21CD33676006EB456 /* VKDBManager.m */; };
+		6C56EFEC1CD33676006EB456 /* VKDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C56EFE41CD33676006EB456 /* VKDBModel.m */; };
+		A1D49BA5E60B9508F690FE91 /* libPods-VKFMDBHelperProj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D144510EC52B7B7FC342F9 /* libPods-VKFMDBHelperProj.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		158EC3B1F3309D5EB08FD4DA /* Pods-VKFMDBHelperProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKFMDBHelperProj.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKFMDBHelperProj/Pods-VKFMDBHelperProj.release.xcconfig"; sourceTree = "<group>"; };
+		43E51B0E8A61FB7959D760F8 /* Pods-VKFMDBHelperProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKFMDBHelperProj.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKFMDBHelperProj/Pods-VKFMDBHelperProj.debug.xcconfig"; sourceTree = "<group>"; };
+		6C56EFB91CD32EC4006EB456 /* VKFMDBHelperProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKFMDBHelperProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C56EFBD1CD32EC4006EB456 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C56EFBF1CD32EC5006EB456 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C56EFC01CD32EC5006EB456 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C56EFC21CD32EC5006EB456 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C56EFC31CD32EC5006EB456 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C56EFC61CD32EC5006EB456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C56EFC81CD32EC5006EB456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C56EFCB1CD32EC5006EB456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C56EFCD1CD32EC5006EB456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C56EFD51CD33676006EB456 /* VKDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKDataBase.h; sourceTree = "<group>"; };
+		6C56EFD61CD33676006EB456 /* VKDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKDataBase.m; sourceTree = "<group>"; };
+		6C56EFD71CD33676006EB456 /* VKDataBaseRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKDataBaseRuntime.h; sourceTree = "<group>"; };
+		6C56EFD81CD33676006EB456 /* VKDataBaseRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKDataBaseRuntime.m; sourceTree = "<group>"; };
+		6C56EFD91CD33676006EB456 /* VKDBModel+DictionaryFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VKDBModel+DictionaryFormat.h"; sourceTree = "<group>"; };
+		6C56EFDA1CD33676006EB456 /* VKDBModel+DictionaryFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VKDBModel+DictionaryFormat.m"; sourceTree = "<group>"; };
+		6C56EFDB1CD33676006EB456 /* VKSqlGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKSqlGenerator.h; sourceTree = "<group>"; };
+		6C56EFDC1CD33676006EB456 /* VKSqlGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKSqlGenerator.m; sourceTree = "<group>"; };
+		6C56EFDD1CD33676006EB456 /* VKSQLQueueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKSQLQueueManager.h; sourceTree = "<group>"; };
+		6C56EFDE1CD33676006EB456 /* VKSQLQueueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKSQLQueueManager.m; sourceTree = "<group>"; };
+		6C56EFDF1CD33676006EB456 /* TESTDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESTDBModel.h; sourceTree = "<group>"; };
+		6C56EFE01CD33676006EB456 /* TESTDBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESTDBModel.m; sourceTree = "<group>"; };
+		6C56EFE11CD33676006EB456 /* VKDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKDBManager.h; sourceTree = "<group>"; };
+		6C56EFE21CD33676006EB456 /* VKDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKDBManager.m; sourceTree = "<group>"; };
+		6C56EFE31CD33676006EB456 /* VKDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKDBModel.h; sourceTree = "<group>"; };
+		6C56EFE41CD33676006EB456 /* VKDBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKDBModel.m; sourceTree = "<group>"; };
+		C7D144510EC52B7B7FC342F9 /* libPods-VKFMDBHelperProj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKFMDBHelperProj.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C56EFB61CD32EC4006EB456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D49BA5E60B9508F690FE91 /* libPods-VKFMDBHelperProj.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C56EFB01CD32EC4006EB456 = {
+			isa = PBXGroup;
+			children = (
+				6C56EFD31CD33676006EB456 /* VKFMDBHelper */,
+				6C56EFBB1CD32EC4006EB456 /* VKFMDBHelperProj */,
+				6C56EFBA1CD32EC4006EB456 /* Products */,
+				C866007A4ADD037D6E077732 /* Pods */,
+				A0C99E5BC7B8CA24FC05DD8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C56EFBA1CD32EC4006EB456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C56EFB91CD32EC4006EB456 /* VKFMDBHelperProj.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C56EFBB1CD32EC4006EB456 /* VKFMDBHelperProj */ = {
+			isa = PBXGroup;
+			children = (
+				6C56EFBF1CD32EC5006EB456 /* AppDelegate.h */,
+				6C56EFC01CD32EC5006EB456 /* AppDelegate.m */,
+				6C56EFC21CD32EC5006EB456 /* ViewController.h */,
+				6C56EFC31CD32EC5006EB456 /* ViewController.m */,
+				6C56EFC51CD32EC5006EB456 /* Main.storyboard */,
+				6C56EFC81CD32EC5006EB456 /* Assets.xcassets */,
+				6C56EFCA1CD32EC5006EB456 /* LaunchScreen.storyboard */,
+				6C56EFCD1CD32EC5006EB456 /* Info.plist */,
+				6C56EFBC1CD32EC4006EB456 /* Supporting Files */,
+			);
+			path = VKFMDBHelperProj;
+			sourceTree = "<group>";
+		};
+		6C56EFBC1CD32EC4006EB456 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C56EFBD1CD32EC4006EB456 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C56EFD31CD33676006EB456 /* VKFMDBHelper */ = {
+			isa = PBXGroup;
+			children = (
+				6C56EFD41CD33676006EB456 /* DataFoundation */,
+				6C56EFDF1CD33676006EB456 /* TESTDBModel.h */,
+				6C56EFE01CD33676006EB456 /* TESTDBModel.m */,
+				6C56EFE11CD33676006EB456 /* VKDBManager.h */,
+				6C56EFE21CD33676006EB456 /* VKDBManager.m */,
+				6C56EFE31CD33676006EB456 /* VKDBModel.h */,
+				6C56EFE41CD33676006EB456 /* VKDBModel.m */,
+			);
+			name = VKFMDBHelper;
+			path = ../VKFMDBHelper;
+			sourceTree = "<group>";
+		};
+		6C56EFD41CD33676006EB456 /* DataFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				6C56EFD51CD33676006EB456 /* VKDataBase.h */,
+				6C56EFD61CD33676006EB456 /* VKDataBase.m */,
+				6C56EFD71CD33676006EB456 /* VKDataBaseRuntime.h */,
+				6C56EFD81CD33676006EB456 /* VKDataBaseRuntime.m */,
+				6C56EFD91CD33676006EB456 /* VKDBModel+DictionaryFormat.h */,
+				6C56EFDA1CD33676006EB456 /* VKDBModel+DictionaryFormat.m */,
+				6C56EFDB1CD33676006EB456 /* VKSqlGenerator.h */,
+				6C56EFDC1CD33676006EB456 /* VKSqlGenerator.m */,
+				6C56EFDD1CD33676006EB456 /* VKSQLQueueManager.h */,
+				6C56EFDE1CD33676006EB456 /* VKSQLQueueManager.m */,
+			);
+			path = DataFoundation;
+			sourceTree = "<group>";
+		};
+		A0C99E5BC7B8CA24FC05DD8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7D144510EC52B7B7FC342F9 /* libPods-VKFMDBHelperProj.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C866007A4ADD037D6E077732 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43E51B0E8A61FB7959D760F8 /* Pods-VKFMDBHelperProj.debug.xcconfig */,
+				158EC3B1F3309D5EB08FD4DA /* Pods-VKFMDBHelperProj.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C56EFB81CD32EC4006EB456 /* VKFMDBHelperProj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C56EFD01CD32EC5006EB456 /* Build configuration list for PBXNativeTarget "VKFMDBHelperProj" */;
+			buildPhases = (
+				3CE28A94D32EA20C3E7EC237 /* Check Pods Manifest.lock */,
+				6C56EFB51CD32EC4006EB456 /* Sources */,
+				6C56EFB61CD32EC4006EB456 /* Frameworks */,
+				6C56EFB71CD32EC4006EB456 /* Resources */,
+				918E1C9E6007763843A30B45 /* Embed Pods Frameworks */,
+				F032BEE85C34E4DBEB27C2EB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKFMDBHelperProj;
+			productName = VKFMDBHelperProj;
+			productReference = 6C56EFB91CD32EC4006EB456 /* VKFMDBHelperProj.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C56EFB11CD32EC4006EB456 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = baidu;
+				TargetAttributes = {
+					6C56EFB81CD32EC4006EB456 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6C56EFB41CD32EC4006EB456 /* Build configuration list for PBXProject "VKFMDBHelperProj" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C56EFB01CD32EC4006EB456;
+			productRefGroup = 6C56EFBA1CD32EC4006EB456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C56EFB81CD32EC4006EB456 /* VKFMDBHelperProj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C56EFB71CD32EC4006EB456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C56EFCC1CD32EC5006EB456 /* LaunchScreen.storyboard in Resources */,
+				6C56EFC91CD32EC5006EB456 /* Assets.xcassets in Resources */,
+				6C56EFC71CD32EC5006EB456 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CE28A94D32EA20C3E7EC237 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		918E1C9E6007763843A30B45 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VKFMDBHelperProj/Pods-VKFMDBHelperProj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F032BEE85C34E4DBEB27C2EB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VKFMDBHelperProj/Pods-VKFMDBHelperProj-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C56EFB51CD32EC4006EB456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C56EFE71CD33676006EB456 /* VKDBModel+DictionaryFormat.m in Sources */,
+				6C56EFEC1CD33676006EB456 /* VKDBModel.m in Sources */,
+				6C56EFEB1CD33676006EB456 /* VKDBManager.m in Sources */,
+				6C56EFC41CD32EC5006EB456 /* ViewController.m in Sources */,
+				6C56EFE81CD33676006EB456 /* VKSqlGenerator.m in Sources */,
+				6C56EFE61CD33676006EB456 /* VKDataBaseRuntime.m in Sources */,
+				6C56EFE91CD33676006EB456 /* VKSQLQueueManager.m in Sources */,
+				6C56EFC11CD32EC5006EB456 /* AppDelegate.m in Sources */,
+				6C56EFE51CD33676006EB456 /* VKDataBase.m in Sources */,
+				6C56EFBE1CD32EC4006EB456 /* main.m in Sources */,
+				6C56EFEA1CD33676006EB456 /* TESTDBModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C56EFC51CD32EC5006EB456 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C56EFC61CD32EC5006EB456 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C56EFCA1CD32EC5006EB456 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C56EFCB1CD32EC5006EB456 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C56EFCE1CD32EC5006EB456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C56EFCF1CD32EC5006EB456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C56EFD11CD32EC5006EB456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E51B0E8A61FB7959D760F8 /* Pods-VKFMDBHelperProj.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VKFMDBHelperProj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.VKFMDBHelperProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C56EFD21CD32EC5006EB456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 158EC3B1F3309D5EB08FD4DA /* Pods-VKFMDBHelperProj.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VKFMDBHelperProj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.VKFMDBHelperProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C56EFB41CD32EC4006EB456 /* Build configuration list for PBXProject "VKFMDBHelperProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C56EFCE1CD32EC5006EB456 /* Debug */,
+				6C56EFCF1CD32EC5006EB456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C56EFD01CD32EC5006EB456 /* Build configuration list for PBXNativeTarget "VKFMDBHelperProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C56EFD11CD32EC5006EB456 /* Debug */,
+				6C56EFD21CD32EC5006EB456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C56EFB11CD32EC4006EB456 /* Project object */;
+}
